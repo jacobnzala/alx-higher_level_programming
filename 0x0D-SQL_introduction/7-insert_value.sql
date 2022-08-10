@@ -1,3 +1,3 @@
---Write a script that inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server.
---inserting 2 element in the row with 2 values
-INSERT INTO first_table('id', 'name') VALUES (89, 'Best School');
+-- inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server
+-- inserts a new row in a table
+INSERT INTO `first_table` (`id`, `name`) VALUES (89, 'Best School');
