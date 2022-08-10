@@ -1,3 +1,3 @@
- --script that counts how many times the number is repeated
- --count how many times 89 is repeated
- COUNT 89 FROM first_table;
+ -- displays the number of records with id = 89 in the table first_table of the database hbtn_0c_0 in your MySQL server
+-- displays number of records fitting a condition
+SELECT COUNT(*) FROM first_table WHERE id = 89;
